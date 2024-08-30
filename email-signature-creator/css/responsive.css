@@ -1,0 +1,136 @@
+@media (max-width: 1120px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .slider_section {
+        padding-bottom: 175px;
+    }
+
+    .slider_section .carousel_btn-container {
+        top: 130%;
+    }
+}
+
+@media (max-width: 992px) {
+    .about_section {
+      height: auto;
+      min-height: unset;
+    }
+    .navbar-collapse {
+        flex: 0;
+    }
+
+    .about_card-container {
+        flex-wrap: wrap;
+    }
+    .about_img-container {
+        margin: 0 auto;
+    }
+
+    .who_section .who_deail-box {
+        width: 95%;
+        margin: 45px 0;
+    }
+    .hide_tablet {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .button,
+    .button:focus,
+    .button:active,
+    .button:hover {
+        min-height: unset;
+        padding: 0.5rem 1rem;
+        font-size: 1.1875rem;
+        line-height: 1.5rem;
+    }
+
+    .slider_detail {
+        padding: 25px 15px;
+        text-align: center;
+    }
+
+    .slider_section .carousel_btn-container {
+        top: 112%;
+    }
+
+    .who_container {
+        flex-direction: column;
+    }
+
+    .who_section .who_img-box {
+        width: 90%;
+    }
+
+    .signature_form-container {
+        margin: 0 auto;
+    }
+
+    .signature_form-container button {
+        margin: 0 auto !important;
+    }
+
+    .contact_img-box {
+        display: none;
+    }
+
+    .form_container form {
+        flex-direction: column;
+    }
+
+    .info_section .form_container input {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .info_section::before {
+        clip-path: polygon(0 175px, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .info_content {
+        margin-top: 150px;
+    }
+    .layout_padding2-top {
+        padding-top: 25px;
+    }
+
+    .slider_section .carousel-control-prev,
+    .slider_section .carousel-control-next {
+        display: none;
+    }
+
+    .slider_section {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .slider_item-imgbox {
+        width: 100%;
+    }
+    .about_card {
+      width: 100%;
+    }
+    .hide_phone {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}
